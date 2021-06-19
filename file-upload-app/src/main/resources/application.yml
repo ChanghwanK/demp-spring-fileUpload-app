@@ -1,0 +1,13 @@
+
+server.port: 8080
+
+spring:
+  application:
+    name: FileUploadApp
+    jackson:
+      default-property-inclusion: non_null
+  servlet:
+    multipart.enabled: true
+
+FileUploadApp.file:
+  defaultPath: /Users/levi/Desktop/dev/storage/images
